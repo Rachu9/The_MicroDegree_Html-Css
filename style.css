@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin:0 ;
+}
+:root{
+   
+   --gradient-color: linear-gradient(rgb(150, 111, 181), #180909);
+    --background-color:#af9cac;
+    --primary-color:#1f1507;
+
+}
+body{
+   
+font-family: cursive;
+background-color: var(--background-color);
+border: 2rem solid transparent;
+border-image: linear-gradient(95deg, rgb(61, 26, 88), #1e0808) 1;
+
+}
+nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    top:0;
+    left: 0;
+    position: sticky;
+    z-index: 1;
+}
+.logo{
+    width: 35%;
+    height: 100px;
+}
+.logo h1{
+    line-height: 100px;
+    padding-left: 10rem;
+    font-size: 2.5rem;
+}
+ul{
+    color: var(--primary-color);
+    background-color: var(--background-color);
+
+}
+.items{
+    width: 50%;
+    height: 8vh;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    list-style: none;
+    padding-top: 2rem;
+}
+.items li a{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+
+.font{
+    font-weight: bolder;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 2rem;
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+
+}
+.font h2{
+    padding-top: 10rem;
+
+}
+h4{
+    font-size: 1.5rem;
+    text-align: center;
+    background: #e7e4e7;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 1.5rem;
+    text-justify: newspaper;
+   
+
+}
+.font h3{
+    font-weight:100;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top:2rem ;
+
+    background-color:black;
+    background: var(--primary-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+
+}
+.font h5{
+    font-weight: bolder;
+    font-family:cursive;
+    font-size: 1rem;
+text-align: center;
+padding-top: 2rem;
+background: #1e021b;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-transform: uppercase;
+
+}
+#hero{
+    height: 35 rem;
+
+}
+
+.font h3{
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: 1.5rem;
+    color:b;
+    
+    
+ }
+
+ #about-img{
+    width: 35rem;
+    height: 25rem;
+
+ }
+ .about-heading{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
+ }
+.about-body{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3rem;
+    padding-left:2rem ;
+
+    
+}
+.about-content{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+/* Service section */
+.service-heading{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
+}
+.services-heading{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
+
+}
+
+.services {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 5rem;
+}
+
+/* Articles */
+.article-img{
+    width: 30rem;
+    height:15rem;
+}
+.article-heading{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
+}
+.article-1, .article-2, .article-3 {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size:20px;
+}
+
+/* If .article-2 should not have padding-right, we can specify it separately */
+.article-2 {
+    padding-right: 0;
+}
+/* footer */
+.footer-heading{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    
+}
+.footer-body{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10rem;
+}
